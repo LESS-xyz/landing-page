@@ -1,0 +1,76 @@
+@import "src/styles/mixins/media";
+
+.ecosystem {
+  background-color: rgb(249, 249, 249);
+  padding: 70px 0 80px;
+
+  @include b('mobile') {
+    padding: 80px 0 30px;
+  }
+
+  .container {
+    max-width: 1110px;
+  }
+
+  &__content {
+    margin-top: 34px;
+    position: relative;
+    @include b('mobile') {
+      margin-top: 30px;
+    }
+  }
+
+  &__row {
+    margin: -38px;
+    display: flex;
+    justify-content: space-between;
+    @include b('mobile') {
+      margin: 0;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+
+  &__coin-img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 291px;
+    height: 308px;
+
+    @include b('tablet') {
+      width: 161px;
+      height: 170px;
+    }
+    @include b('mobile') {
+      top: -180px;
+      width: 161px;
+      height: 170px;
+    }
+  }
+
+  &__bg-img {
+    position: absolute;
+    z-index: 0;
+
+    &-cube {
+      top: -22px;
+      right: -20px;
+    }
+
+    &-graph {
+      top: 132px;
+      left: 60px;
+    }
+
+    &-slide {
+      bottom: -121px;
+      right: -94px;
+    }
+
+    @include b('mobile') {
+      display: none;
+    }
+  }
+}

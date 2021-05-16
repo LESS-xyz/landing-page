@@ -1,0 +1,51 @@
+@import './reset';
+@import './fonts';
+@import './vars';
+@import './typography';
+@import '~antd/dist/antd.css';
+@import 'mixins/media';
+
+html, body {
+  height: 100%;
+  font-family: Poppins, sans-serif;
+  font-weight: 400;
+
+  color: #000;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+  overflow: hidden;
+}
+
+.main {
+  flex: 1 0 auto;
+}
+
+.footer {
+  flex: 0 0 auto;
+}
+
+.container {
+  max-width: 1030px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 15px;
+  //overflow: hidden;
+
+  @include b('mobile') {
+    padding: 0 20px;
+  }
+}
+
+.btn {
+
+  font-size: 17px;
+  line-height: 25px;
+  letter-spacing: -0.5px;
+  text-align: center;
+  border: none;
+  outline: none;
+}

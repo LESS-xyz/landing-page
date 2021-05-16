@@ -1,0 +1,58 @@
+@import 'src/styles/mixins/media';
+
+.h1{
+  font-size:40px;
+  line-height: 60px;
+  @include b('mobile'){
+
+    font-size: 36px;
+    line-height: 50px;
+  }
+  &-xl{
+    font-size:66px;
+    line-height: 77px;
+    @include b('mobile'){
+
+      font-size: 36px;
+      line-height: 50px;
+    }
+  }
+}
+.text{
+  &-center{
+    text-align: center;
+  }
+  &-regular{
+    font-weight: 500;
+  }
+  &-bold{
+    font-weight: 700;
+  }
+  &-gray{
+    color:$gray;
+    &-l{
+      color:$gray-l;
+    }
+    &-d{
+      color:$gray-d;
+    }
+    &-xd{
+      color:$gray-xd;
+    }
+  }
+  &-black{
+    color:$black;
+    &-l{
+      color:$black-l;
+    }
+  }
+  &-orange{
+    color:$orange;
+  }
+  &-blue{
+    color:$blue;
+  }
+  &-white{
+    color:$white;
+  }
+}

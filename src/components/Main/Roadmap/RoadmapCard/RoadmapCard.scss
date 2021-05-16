@@ -1,0 +1,136 @@
+@import 'src/styles/vars';
+@import 'src/styles/mixins/media';
+
+
+.roadmap-card {
+  position: relative;
+  width: 400px;
+  height: 439px;
+  border-radius: 30px;
+
+  &:not(:last-child) {
+    margin-right: -65px;
+  }
+
+  &__arrow-right {
+    position: absolute;
+    top: 130px;
+    right: 35px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 40px rgba(84, 84, 212, 0.1);
+    border-radius: 50%;
+    z-index: 999;
+
+    @include b('mobile') {
+      display: none;
+    }
+  }
+
+  &__content {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    padding: 30px 23px 56px 30px;
+    top: 28px;
+    left: 41px;
+    @include b('mobile') {
+      padding: 20px 63px 20px 20px;
+      position: initial;
+    }
+  }
+
+  &__title {
+    font-size: 22px;
+    line-height: 33px;
+    position: relative;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 43px;
+      left: 0;
+      width: 119px;
+      height: 2px;
+      background-color: $blue;
+    }
+  }
+
+  &__goals {
+    margin-top: 36px;
+  }
+
+  &__goal {
+    position: relative;
+    max-width: 248px;
+    padding-left: 20px;
+    font-size: 16px;
+    line-height: 24px;
+    color: rgba(25, 25, 27, 0.5);
+
+    &:not(:first-child) {
+      margin-top: 12px;
+    }
+
+    &:before {
+      content: '';
+      position: absolute;
+      top: 6px;
+      left: 0;
+      width: 10px;
+      height: 10px;
+      background-color: $blue;
+      border-radius: 50%;
+    }
+  }
+
+  &:last-child {
+    margin-top: 30px;
+    margin-left: 40px;
+    margin-right: 40px;
+    max-width: 320px;
+    width: 100%;
+    height: 359px;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 40px rgba(84, 84, 212, 0.1);
+
+    .roadmap-card__content {
+      position: absolute;
+      top: 0;
+      left: 0;
+    }
+
+    .roadmap-card__arrow-right, .roadmap-card__bg {
+      display: none;
+    }
+  }
+
+  @include b('mobile') {
+    max-width: 350px;
+    width: 100%;
+    height: initial;
+    background: #FFFFFF;
+    box-shadow: 0px 12px 40px rgba(84, 84, 212, 0.1);
+    border-radius: 30px;
+    &__bg {
+      display: none;
+    }
+    &:not(:last-child) {
+      margin: 0 0 20px 0;
+    }
+    &:last-child {
+      height: initial;
+      max-width: 350px;
+      margin: 0;
+
+      .roadmap-card__content {
+        padding: 20px 63px 20px 20px;
+        position: initial;
+      }
+    }
+  }
+}
