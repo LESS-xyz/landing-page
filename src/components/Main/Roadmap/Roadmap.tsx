@@ -13,10 +13,10 @@ export const Roadmap: React.FC = () => {
                 </h1>
                 <div className="roadmap__cards">
                     <RoadmapCard stage='Q2'
-                                 goals={['Less Presale', 'LessPad ETH/BSC Chain', 'LessTools Beta', 'CEX Listing', 'DAO Launch', 'UX/UI Redesign']}/>
+                                 goals={['Less Presale', 'LessPad ETH/BSC Chain', 'LessTools Beta', 'CEX Listing']}/>
                     <RoadmapCard stage='Q3'
-                                 goals={['NFT marketing promotion tool', 'Presale promotion tools', 'More tools (mempool, analytics...)', 'Improvements based on community feedback']}/>
-                    <RoadmapCard stage='Q4' goals={['CEX tools', 'Advanced public API release', 'More dex integration']}/>
+                                 goals={['LessTools Release','LessNFT ETH/BSC Chain','More tools (mempool, analytics, еtс.)','Improvements based on community feedback']}/>
+                    <RoadmapCard stage='Q4' goals={['LessDEX','DAO Launch','More DEX integration','UX/UI redesign']}/>
                 </div>
                 <img src={LeftCube} alt='background ' className="roadmap__bg-img roadmap__bg-img-left"/>
                 <img src={RightCube} alt='background' className="roadmap__bg-img roadmap__bg-img-right"/>
