@@ -1,0 +1,24 @@
+@import 'src/styles/mixins/media';
+.scroll-to-top {
+  position: fixed;
+  bottom: 226px;
+  right: 40px;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #FFFFFF;
+  box-shadow: 0 12px 40px rgba(84, 84, 212, 0.1);
+  border-radius: 50%;
+  z-index: 999;
+  transform: rotate(-90deg);
+  @include b('mobile'){
+
+    bottom: 20px;
+    right: 10px;
+  }
+}
+.scroll-to-top-hidden{
+  display: none;
+}

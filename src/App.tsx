@@ -3,6 +3,7 @@ import './styles/index.scss';
 import {Header} from "./components/Header/Header";
 import {Main} from "./components/Main/Main";
 import {Footer} from "./components/Footer/Footer";
+import {ScrollToTop} from "./components/ScrollToTop/ScrollToTop";
 
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
             <Main/>
             <Footer/>
         </div>
+        <ScrollToTop/>
     </div>
   );
 }
