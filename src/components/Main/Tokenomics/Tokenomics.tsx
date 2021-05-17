@@ -9,7 +9,7 @@ import EcosystemDevelopment from '../../../assets/img/icons/icon-ecosystem-devel
 import MarketingAdvisors from '../../../assets/img/icons/icon-marketing-advisors.svg';
 import Unikorn from '../../../assets/img/icons/icon-unicorn.svg';
 import Rabbit from '../../../assets/img/icons/icon-rabbit.svg';
-import TokenomicsGraphic from '../../../assets/img/tokenomics-graphic.png';
+import TokenomicsGraphic from '../../../assets/img/tokenomics-graphic.svg';
 import {HashLink} from "react-router-hash-link";
 
 export const Tokenomics: React.FC = () => {
@@ -28,7 +28,7 @@ export const Tokenomics: React.FC = () => {
                         <TokenomicsCard picture={PublicSale} title={'Public Sale: '} amount='500,000,000'/>
                         <TokenomicsCard picture={LiquidityLocked} title={'Liquidity Locked: '} amount='187,500,000'
                                         className='left-zero'/>
-                        <TokenomicsCard picture={TeamTokens} title={'Ecosystem Development: '} amount='50,000,000'/>
+                        <TokenomicsCard picture={TeamTokens} title={'Team Tokens: '} amount='50,000,000'/>
                         <TokenomicsCard picture={EcosystemDevelopment} title={'Ecosystem Development: '}
                                         amount='425,000,000'/>
                         <TokenomicsCard picture={MarketingAdvisors} title={'Marketing & Advisors : '}

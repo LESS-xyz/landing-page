@@ -44,7 +44,7 @@ export const Header:React.FC=()=>{
                         <li>
                             <a href="https://less-token.medium.com" target="_blank" rel="noreferrer" className='header-nav__socials-item text-gray-xd text-bold'><Medium/></a></li>
                         <li>
-                            <a href="https://t.me/lesstokenann" target="_blank" rel="noreferrer" className='header-nav__socials-item text-gray-xd text-bold'><Telegram/></a></li>
+                            <a href="https://t.me/lesstokenann" target="_blank" rel="noreferrer" className='header-nav__socials-item header-nav__socials-item-tg text-gray-xd text-bold'><Telegram/></a></li>
                         <li>
                             <a href="https://github.com/lesstoken" target="_blank" rel="noreferrer" className='header-nav__socials-item text-gray-xd text-bold'><Github/></a></li>
                     </ul>

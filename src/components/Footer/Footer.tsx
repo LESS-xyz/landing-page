@@ -43,9 +43,9 @@ export const Footer: React.FC = () => {
                         </li>
                         <li>
                             <a href="https://less-token.medium.com" target="_blank" rel="noreferrer"
-                               className=' text-gray-xd text-bold'><Medium/></a></li>
+                               className='socials__item text-gray-xd text-bold'><Medium/></a></li>
                         <li>
-                            <a href="https://t.me/lesstokenann" target="_blank" rel="noreferrer" className='socials__item text-gray-xd text-bold'><Telegram/></a></li>
+                            <a href="https://t.me/lesstokenann" target="_blank" rel="noreferrer" className='socials__item socials__item-tg text-gray-xd text-bold'><Telegram/></a></li>
                         <li>
                             <a href="https://github.com/lesstoken" target="_blank" rel="noreferrer" className='socials__item text-gray-xd text-bold'><Github/></a></li>
                     </ul>
@@ -54,14 +54,25 @@ export const Footer: React.FC = () => {
                     <p className='footer-main__copyrights'>© 2021 less. All rights reserved</p>
                     <ul className='footer-main__list socials'>
                         <li>
-                            <a href="https://twitter.com/LessToken" target="_blank" rel="noreferrer" className='socials__item text-gray-xd text-bold'><Twitter/></a>
+                            <a href="https://twitter.com/LessToken" target="_blank" rel="noreferrer" className='socials__item text-gray-xd text-bold'>
+                                <Twitter/>
+                            </a>
                         </li>
                         <li>
-                            <a href="https://less-token.medium.com" target="_blank" rel="noreferrer" className='socials__item text-gray-xd text-bold'><Medium/></a></li>
-                        <li className='socials__item text-gray-xd text-bold'>
-                            <a href="https://t.me/lesstokenann" target="_blank" rel="noreferrer" className='socials__item text-gray-xd text-bold'><Telegram/></a></li>
+                            <a href="https://less-token.medium.com" target="_blank" rel="noreferrer" className='socials__item text-gray-xd text-bold'>
+                                <Medium/>
+                            </a>
+                        </li>
                         <li>
-                            <a href="https://github.com/lesstoken" target="_blank" rel="noreferrer" className='socials__item text-gray-xd text-bold'><Github/></a></li>
+                            <a href="https://t.me/lesstokenann" target="_blank" rel="noreferrer" className='socials__item socials__item-tg text-gray-xd text-bold'>
+                                <Telegram/>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://github.com/lesstoken" target="_blank" rel="noreferrer" className='socials__item text-gray-xd text-bold'>
+                                <Github/>
+                            </a>
+                        </li>
                     </ul>
                 </section>
             </div>

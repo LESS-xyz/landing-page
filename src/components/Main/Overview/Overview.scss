@@ -20,6 +20,9 @@
     letter-spacing: -2.5px;
     @include b('mobile'){
       max-width: 350px;
+      letter-spacing: initial;
+      display: flex;
+      flex-direction: column;
     }
   }
   &__description{
@@ -30,5 +33,9 @@
 
     font-size: 24px;
     line-height: 30px;
+    @include b('mobile'){
+      display: flex;
+      flex-direction: column;
+    }
   }
 }

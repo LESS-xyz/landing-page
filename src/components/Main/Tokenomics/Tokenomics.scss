@@ -77,7 +77,7 @@
       top: 50px;
       left: 32px;
       @include b('mobile') {
-        top: 0;
+        top: 10px;
         left: 0;
         width: 349px;
         height: 335px;
@@ -199,7 +199,10 @@
       font-size: 17px;
       line-height: 25px;
       border-radius: 60px;
-
+      transition: transform 0.45s cubic-bezier(0.19, 1, 0.22, 1) 0s;
+      &:hover{
+        transform: translate(2px,2px);
+      }
       @include b('mobile') {
         margin-top: 32px;
         padding: 12px 42px;

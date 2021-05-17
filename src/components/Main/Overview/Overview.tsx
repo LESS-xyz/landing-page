@@ -10,10 +10,12 @@ export const Overview: React.FC = () => {
                 <div className='container'>
                     <h1 className='overview__header h1-xl text-bold'>Next Generation
                         Cross-Chain
+                        <span>
                         DeFi Products.
+                        </span>
                     </h1>
                     <p className="overview__description text-gray-d">Observe data. Identify alternatives.
-                        Make the best trade.
+                        <span>Make the best trade.</span>
                     </p>
                 </div>
             </div>

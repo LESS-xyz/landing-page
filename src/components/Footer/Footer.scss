@@ -103,6 +103,12 @@
     align-items: center;
     background-color: rgba(255, 255, 255, 0.1);
     border-radius: 50%;
+
+    &-tg{
+      svg{
+        margin-left:-1px;
+      }
+    }
   }
 }
 
@@ -115,9 +121,15 @@
     .socials__item {
       width: 48px;
       height: 48px;
-
+      &-tg{
+        svg{
+          margin-left:-2px;
+        }
+      }
       svg {
         transform: scale(2);
+        //width: 20px;
+        //height: 20px;
       }
     }
   }
