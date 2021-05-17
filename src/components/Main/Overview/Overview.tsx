@@ -9,12 +9,11 @@ export const Overview: React.FC = () => {
                  style={{backgroundImage: `url(${BackgroundImg})`}}>
                 <div className='container'>
                     <h1 className='overview__header h1-xl text-bold'>Next Generation
-                        Cross-Chain
-                        <span>
+                        Cross-Chain <span>
                         DeFi Products.
                         </span>
                     </h1>
-                    <p className="overview__description text-gray-d">Observe data. Identify alternatives.
+                    <p className="overview__description text-gray-d">Observe data. Identify alternatives.{' '}
                         <span>Make the best trade.</span>
                     </p>
                 </div>
