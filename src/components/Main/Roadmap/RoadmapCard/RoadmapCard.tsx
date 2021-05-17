@@ -19,7 +19,7 @@ export const RoadmapCard: React.FC<RoadmapCardProps> = ({stage,goals}) => {
             <div className="roadmap-card__content">
                 <h3 className='roadmap-card__title text-orange text-bold'>{stage} <span className="text-blue">2021</span></h3>
                 <ul className="roadmap-card__goals">
-                    {goals.map((goal:string)=>(<li className="roadmap-card__goal">{goal}</li>))}
+                    {goals.map((goal:string,index)=>(<li key={`goal-${index}`} className="roadmap-card__goal">{goal}</li>))}
                 </ul>
             </div>
         </div>
