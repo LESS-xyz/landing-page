@@ -17,7 +17,7 @@ export const Tokenomics: React.FC = () => {
         <div className='tokenomics' >
             <div className='tokenomics__banner'>
                 <h3 className='tokenomics__banner-title text-bold text-center'>500,000,00 <span className='text-orange'> LESS Presale</span></h3>
-                <p className='tokenomics__banner-secondary text-black-l text-center'>Presale Will Be Bounce.Finance</p>
+                <p className='tokenomics__banner-secondary text-black-l text-center'>Presale Will Be On Bounce.Finance</p>
                 <HashLink to='/#swap' className="tokenomics__banner-buy btn text-bold" smooth>Buy  LESS token</HashLink>
             </div>
             <div className="container" id='tokenomics'>
