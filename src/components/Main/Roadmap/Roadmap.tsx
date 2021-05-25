@@ -15,8 +15,8 @@ export const Roadmap: React.FC = () => {
                     <RoadmapCard stage='Q2'
                                  goals={['Less Presale', 'LessPad ETH/BSC Chain', 'LessTools Beta', 'CEX Listing']}/>
                     <RoadmapCard stage='Q3'
-                                 goals={['LessTools Release','LessNFT ETH/BSC Chain','More tools (mempool, analytics, еtс.)','Improvements based on community feedback']}/>
-                    <RoadmapCard stage='Q4' goals={['LessDEX','DAO Launch','More DEX integration','UX/UI redesign']}/>
+                                 goals={['LessTools platform release','LessNFT ETH/BSC chain release','New Chains Integrated','Project X: More to come!']}/>
+                    <RoadmapCard stage='Q4' goals={['LessDex Full Launch','Research & Integrate New Chains','Crosschain features live with added integrations into LessDex','Project X Full Launch (more info coming)']}/>
                 </div>
                 <img src={LeftCube} alt='background ' className="roadmap__bg-img roadmap__bg-img-left"/>
                 <img src={RightCube} alt='background' className="roadmap__bg-img roadmap__bg-img-right"/>

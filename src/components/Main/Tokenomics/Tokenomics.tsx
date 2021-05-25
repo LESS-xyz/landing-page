@@ -8,7 +8,11 @@ import TeamTokens from '../../../assets/img/icons/icon-team-tokens.svg';
 import EcosystemDevelopment from '../../../assets/img/icons/icon-ecosystem-development.svg';
 import MarketingAdvisors from '../../../assets/img/icons/icon-marketing-advisors.svg';
 import Unikorn from '../../../assets/img/icons/icon-unicorn.svg';
+import UniswapBg from '../../../assets/img/uniswap-bg-m.svg';
 import Rabbit from '../../../assets/img/icons/icon-rabbit.svg';
+import PancakeBg from '../../../assets/img/pancake-bg-m.svg';
+import Bridge from '../../../assets/img/icons/icon-bridge.svg';
+import BridgeBg from '../../../assets/img/bridge-bg-m.svg';
 import TokenomicsGraphic from '../../../assets/img/tokenomics-graphic.svg';
 import {HashLink} from "react-router-hash-link";
 
@@ -41,7 +45,26 @@ export const Tokenomics: React.FC = () => {
                 </div>
                 <div  id='swap'/>
                 <div className='tokenomics-swap'>
-                    <div className='tokenomics-swap__item'>
+                    <div className='tokenomics-swap__item swap-uniswap'>
+                        <div className='tokenomics-swap__logo'>
+                            <img src={Unikorn} alt="unikorn"/></div>
+                        <div className='tokenomics-swap__content'>
+                            <h3 className='tokenomics-swap__title text-bold text-center'>UniSwap</h3>
+                            <a href={'https://app.uniswap.org/#/swap'} target="_blank" rel="noreferrer" className='tokenomics-swap__buy btn text-bold'>Buy</a>
+                        </div>
+                        <img src={UniswapBg } className="tokenomics-swap__bg swap-uniswap-bg"/>
+
+                    </div>
+                    <div className='tokenomics-swap__item swap-bridge'>
+                        <div className='tokenomics-swap__logo'>
+                            <img src={Bridge} alt="unikorn"/></div>
+                        <div className='tokenomics-swap__content'>
+                            <h3 className='tokenomics-swap__title text-bold text-center'>Bridge Less</h3>
+                            <a href={'https://bridge.less.xyz/'} target="_blank" rel="noreferrer" className='tokenomics-swap__buy btn text-bold'>Go to bridge</a>
+                        </div>
+                        <img src={BridgeBg } className="tokenomics-swap__bg swap-bridge-bg"/>
+                    </div>
+                    <div className='tokenomics-swap__item  swap-pancake'>
                         <div className='tokenomics-swap__logo'>
                             <img src={Rabbit} alt="rabbit"/>
                         </div>
@@ -49,14 +72,7 @@ export const Tokenomics: React.FC = () => {
                             <h3 className='tokenomics-swap__title text-bold text-center'>Pancake Swap</h3>
                             <a href={'https://exchange.pancakeswap.finance/#/swap'} target="_blank" rel="noreferrer" className='tokenomics-swap__buy btn text-bold'>Buy</a>
                         </div>
-                    </div>
-                    <div className='tokenomics-swap__item'>
-                        <div className='tokenomics-swap__logo'>
-                            <img src={Unikorn} alt="unikorn"/></div>
-                        <div className='tokenomics-swap__content'>
-                            <h3 className='tokenomics-swap__title text-bold text-center'>UniSwap</h3>
-                            <a href={'https://app.uniswap.org/#/swap'} target="_blank" rel="noreferrer" className='tokenomics-swap__buy btn text-bold'>Buy</a>
-                        </div>
+                        <img src={PancakeBg } className="tokenomics-swap__bg swap-pancake-bg"/>
                     </div>
                 </div>
             </div>

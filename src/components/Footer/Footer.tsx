@@ -47,7 +47,7 @@ export const Footer: React.FC = () => {
                         <li>
                             <a href="https://t.me/lesstokenann" target="_blank" rel="noreferrer" className='socials__item socials__item-tg text-gray-xd text-bold'><Telegram/></a></li>
                         <li>
-                            <a href="https://github.com/lesstoken" target="_blank" rel="noreferrer" className='socials__item text-gray-xd text-bold'><Github/></a></li>
+                            <a href="https://github.com/LESS-xyz" target="_blank" rel="noreferrer" className='socials__item text-gray-xd text-bold'><Github/></a></li>
                     </ul>
                 </nav>
                 <section className='footer-main'>
@@ -69,7 +69,7 @@ export const Footer: React.FC = () => {
                             </a>
                         </li>
                         <li>
-                            <a href="https://github.com/lesstoken" target="_blank" rel="noreferrer" className='socials__item text-gray-xd text-bold'>
+                            <a href="https://github.com/LESS-xyz" target="_blank" rel="noreferrer" className='socials__item text-gray-xd text-bold'>
                                 <Github/>
                             </a>
                         </li>
