@@ -28,7 +28,7 @@ export const Tokenomics: React.FC = () => {
                 <h2 className="h1 text-bold text-center">Tokenomics</h2>
                 <div className='tokenomics__about'>
                     <div className="tokenomics__cards">
-                        <TokenomicsCard picture={TotalSuply} title={'Total Supply: '} amount='1,25 B'/>
+                        <TokenomicsCard picture={TotalSuply} title={'Total Supply: '} amount='1,250,000,000'/>
                         <TokenomicsCard picture={PublicSale} title={'Public Sale: '} amount='500,000,000'/>
                         <TokenomicsCard picture={LiquidityLocked} title={'Liquidity Locked: '} amount='187,500,000'
                                         className='left-zero'/>
