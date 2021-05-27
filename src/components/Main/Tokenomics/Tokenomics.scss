@@ -58,6 +58,9 @@
     height: 465px;
     position: relative;
 
+    @include b('tablet') {
+      margin-top:52px;
+    }
     &-bg {
       width: 357px;
       height: 465px;
